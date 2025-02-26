@@ -21,9 +21,9 @@ function App() {
         <ul>
           {posts.map((post) => (
             <li key={post.id}>{post.title}
-            <br />
-            <br />
-            {post.content}</li>
+              <br />
+              <br />
+              {post.content}</li>
           ))
 
           }
